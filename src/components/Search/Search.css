@@ -11,7 +11,7 @@ body {background-color: #fff;}
 /* link styles */
 a {color: #004489; text-decoration: underline;}
 .no-underline {text-decoration: none;}
-a.no-underline:hover {text-decoration: underline;}
+a.no-underline: hover {text-decoration: underline;}
 
 a.nav-link, a.page-link, a.navbar-brand {text-decoration: none; color: #004489;}
 

@@ -6,10 +6,6 @@ import Loading from './../Loading/Loading';
 import './NewsItemList.css';
 import NewsItem from './../NewsItem/NewsItem';
 
-const xyz = (
-  <div>abc</div>
-)
-
 class NewsItemList extends Component {
   constructor() {
     super();
@@ -41,6 +37,8 @@ class NewsItemList extends Component {
 
   render(props, state) {
     let newsItems = state.newsItems;
+
+
     return (
       <div>
         {newsItems ? (
