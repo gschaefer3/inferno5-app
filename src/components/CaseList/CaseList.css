@@ -94,11 +94,10 @@
   display: inline-block;
   float: left;
   color: #ccc;
-  height: 2.5rem;
-  width: 2.5rem;
-  line-height: 2.5rem;
+  height: 1.75rem;
+  width: 1.75rem;
+  line-height: 1.75rem;
   text-align: center;
-  border-radius: 100%;
   transition: 0.25s all;
 }
 
@@ -107,7 +106,7 @@
 }
 
 .spicy-datatable-pagination-list .spicy-datatable-pagination-button.active {
-  background: #7a6cb0;
+  background: #1b73e7;
   color: #fff;
 }
 
