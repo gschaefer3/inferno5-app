@@ -10,7 +10,7 @@ import './Login.css';
 function login(instance) {
   instance.props.auth0.authorize({
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3002/',
+    redirectUri: 'https://morning-basin-70152.herokuapp.com/',
     audience: 'https://multiplan.auth0.com/userinfo',
     scope: 'openid profile'
   });
