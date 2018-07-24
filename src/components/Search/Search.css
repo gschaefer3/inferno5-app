@@ -1,0 +1,42 @@
+/* src/components/Search/Search.css */
+body {background-color: #fff;}
+.container-fluid, .container {
+    background-color: #fff; 
+    padding: 20px;
+}
+
+
+.sign-in {min-height: 100vh;}
+
+/* link styles */
+a {color: #004489; text-decoration: underline;}
+.no-underline {text-decoration: none;}
+a.no-underline:hover {text-decoration: underline;}
+
+a.nav-link, a.page-link, a.navbar-brand {text-decoration: none; color: #004489;}
+
+/* form styles */
+label {margin-bottom:0;}
+.form-control {border: 1px #999 solid; color: #222;}
+
+/* table styles */
+.table .thead-med th {border-color: #004489;}
+.table-sm {font-size: .87rem;}
+.table-borderless td,.table-borderless th, .table-borderless tr {border: 0;}
+.table-borderless {border-collapse: separate;}
+.table .thead-med th {border-color: #004489; border-top: 0px;}
+
+/* text styles */
+h1.page-title {font-size:1.6rem; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 30px;}
+h1.page-title-sub {font-size:1.6rem; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 5px;}
+
+
+/* button styles */
+.btn-success {background-color: #063;}
+.btn-light {background-color: #dadada;}
+.btn-light:hover {background-color: #efefef;}
+.btn-light:focus, .btn-light.focus {box-shadow: 0 0 0 0.2rem rgba(239, 239, 239, 1);}
+
+/* icon styles */
+.icon-dark-blue {color: #004489;}
+.icon-dark-blue:hover {color:#006fbe}

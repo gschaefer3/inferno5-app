@@ -1,0 +1,10 @@
+/* src/components/NewsItemList/NewsItemList.css */
+
+.NewsItemList a {
+  cursor: pointer;
+  background-color: red;
+}
+.NewsItemList a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

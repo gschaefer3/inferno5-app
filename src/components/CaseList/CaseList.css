@@ -1,0 +1,10 @@
+/* src/components/DinoList/DinoList.css */
+
+.CaseList a {
+  cursor: pointer;
+  background-color: red;
+}
+.CaseList a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

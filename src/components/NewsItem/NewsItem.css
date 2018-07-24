@@ -1,0 +1,7 @@
+/* src/components/NewsItem/NewsItem.css */
+
+.custServicePanelBorder {
+  border:1px solid black;
+  width:400px;
+  font-size:small;
+}
