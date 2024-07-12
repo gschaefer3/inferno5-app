@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^9.0.0",
-    "bootstrap": "^4.1.2",
+    "bootstrap": "^5.0.0",
     "inferno": "^5.3.0",
     "inferno-component": "^5.3.0",
     "inferno-datatable": "^0.1.0",
